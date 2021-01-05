@@ -1,0 +1,580 @@
+p{
+  text-align: justify;
+}
+div a{
+  text-decoration: none;
+  color: white;
+}
+div a:hover{
+  text-decoration: underline;
+}
+h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+body{
+  margin: 0;
+  background-image: linear-gradient(to top, lightblue, white);
+}
+section{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+#logo{
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+footer{
+  background-color: grey;
+}
+nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 35px 46px;
+  text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+nav li{
+  float: left;
+}
+nav li a:hover {
+    background-color: #111;
+}
+.container {
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+	width: 70%;
+	height: 0;
+	padding-bottom: 40%;
+	user-select: none;
+	background-color: #1c1c1c;
+	box-shadow: 0 11px 22px rgba(0, 0, 0, 0.20), 0 7px 7px rgba(0, 0, 0, 0.24);
+}
+.slide_img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+    z-index: -1;
+}
+.slide_img img{
+		width: 100%;
+		height: 100%;
+}
+#i1, #i2, #i3{
+  display: none;
+}
+.dots {
+  top: -5px;
+  width: 18px;
+  height: 18px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(0,0,0,.4);
+}
+#nav_slide{
+  width: 100%;
+  bottom: 12%;
+  height: 11px;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+}
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+	z-index: 9;
+}
+#i1:checked ~ #nav_slide #dot1,
+#i2:checked ~ #nav_slide #dot2,
+#i3:checked ~ #nav_slide #dot3{
+  background: #fff;
+}
+.texte{
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5px;
+  width: auto;
+  text-align: center;
+  background-color: rgba(0,0,0,.4);
+}
+#nom_du_site:hover{
+  background-color: inherit;
+}
+#sec article img{
+max-width: 100%
+}
+#P1 {
+  background-color: white;
+  padding: 20px;
+
+}
+#P2, #P4{
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: white;
+  height: 600px;
+  margin-top: 20px;
+}
+#P3, #P5{
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 600px;
+}
+#P6{
+  background-color: white;
+  height: 450px;
+  padding: 20px;
+  width: 100%;
+  margin:auto;
+}
+#bodyDD{
+ text-align: justify;
+ background-image: linear-gradient(to bottom, white, green);
+ margin: 0
+}
+#haut {
+  float: bottom;
+  margin-top: 100px;
+}
+#footerDD p{
+  background-color: white;
+  text-align: center;
+  padding: 3px;
+  margin-top: 10px;
+}
+ #P1 img {
+  padding-left: 25%;
+  width: 50%
+}
+#header{
+  width : 75%;
+  margin: auto;
+}
+#headerDD{
+  position: fixed;top: 0;
+  width: 100%;
+}
+.eau {
+border : 2px solid #4EA9A0;
+padding:1%;
+margin: 2% 0 2% 0;
+background-image: linear-gradient(to top, #7FC6BC, #EDF7F2)
+}
+
+.dechets  {
+margin: 5% 1% 2% 1%%;
+padding: 2%;
+clear: both;
+border : 2px solid grey;
+background-image: linear-gradient(to top, lightgrey, white);
+}
+
+.rt {
+margin: 1%;
+}
+
+.eco {
+border : 2px solid green;
+padding:1%;
+margin: 2% 0 2% 0;
+background-image: linear-gradient(to top,#B09F91 , white);
+
+}
+.vert {
+border: 2px solid green;
+background-color: #C4FCCA;
+margin: 2% 1% 2% 1%;
+padding: 1%;
+clear: both;
+}
+
+#eau {
+width: 30%;
+height: 25%;
+float: left;
+padding-right: 4%;
+}
+#dechets {
+width: 30%;
+height: 30%;
+float: left;
+padding-right: 2%;
+}
+
+#tortue {
+width: 0px;
+height:0px;
+}
+
+#eco {
+width: 30%;
+height: 25%;
+float: left;
+padding-right: 2%;
+}
+
+#energie {
+width: 30%;
+height: 25%;
+padding-right: 2%;
+margin: 1% 0% 2% 8%;
+float: left;
+}
+
+
+.ali {
+background-color: #99D1C6;
+border: 1px solid blue;
+padding: 1%;
+}
+#cochon {
+width:30%;
+height: 25%;
+margin : 1% 1% 1% 1%;
+float: left;
+}
+#main {
+width: 0px;
+height: 0px;
+margin: 2% 1% 2% 330px;
+}
+#footerGS {
+background-color: darkgreen;
+padding: 1%;
+margin : 0;
+width: 98%;
+}
+#footerGS a {
+text-decoration: none;
+color: white;
+float: bottom
+}
+#bodyGS{
+text-align:justify;
+margin : 0;
+background-image: linear-gradient(to top, green, lightgreen);
+font-family: ;
+font-size: 1.1em;
+line-height: 1.1em;
+}
+
+#sectionGS {
+margin: auto;
+background-color:white;
+padding: 1%;
+}
+#a {
+text-align : center;
+font-style : oblique;
+text-transform : capitalize;
+color : black;
+border : 2px solid black;
+padding : 2.5%;
+background-color: green;
+margin:2% 2% 2% 2%;
+position: center;
+font-size:1.5em;
+}
+
+.intro {
+padding: 2%;
+}
+#sectionGS header ul li {
+display: block;
+border : 1px solid black;
+background-color: #85C630;
+width: 90%;
+padding: 3% 0 3% 0 ;
+list-style-type: none;
+text-align: center;
+margin: 1% 0 1% 0;
+}
+#sectionGS header li a {
+text-align : center;
+text-decoration : none;
+display: flex;
+justify-content: center;
+color: white;
+font-weight: bold;
+}
+#sectionGS header {
+text-align : center;
+}
+
+#sectionGSul li {
+list-style-type: square;
+}
+
+#sectionGS h2::first-letter {font-size: 200%;}
+
+#sectionGS h2 {
+text-align: center;
+color: #2FC173;
+text-decoration: underline;
+font-style: italic;
+font-variant: small-caps;
+margin: 5% 0 5% 0%;
+clear : both;
+}
+#sectionGS h3 {
+text-align:center;
+color: #333333;
+}
+#bodySP {
+text-align : justify ;
+padding : 0px ;
+background-image: linear-gradient(to bottom, #5E9D4A, #9D0E0E) ;
+}
+
+#sectionSP {
+margin : auto ;
+width : 98% ;
+font-size : 1.1em;
+line-height : 1.1em;
+background-color : white ;
+padding : 1% ;
+}
+
+#bodySP h1 {
+text-align : center ;
+font-style : oblique ;
+text-transform : capitalize;
+color : black ;
+border : 2px solid black ;
+padding : 3% ;
+font-size: 1.5em;
+}
+
+.intro::first-letter { font-size : 200%; }
+
+#bodySP h2 {
+text-align : center ;
+}
+
+.sp::first-letter { font-size : 200%;}
+
+#headerSP {
+text-align : center ;
+}
+
+#headerSP ul li {
+width : 90% ;
+border: 1px solid black ;
+padding : 0px ;
+display : block;
+text-align : center ;
+background-color : #C31010  ;
+margin : 10px ;
+padding : 1px
+}
+
+#headerSP a {
+text-decoration : none ;
+color : white ;
+}
+
+#bodySP a:active{color: black;}
+#bodySP a:link {color : white; }
+
+.a1 {
+padding : 10px ;
+background-color : lightgrey ;
+position : relative ;
+}
+
+#dd {
+width : 0px ;
+height : 0px ;
+}
+
+.a2 {
+background-color : #5E9D4A ;
+margin : 10px 0px 10px 0px;
+padding : 10px;
+position : relative ;
+}
+
+#p {
+width : 0px ;
+height : 0px ;
+}
+
+.a3 {
+padding : 10px ;
+background-color : lightgrey ;
+position : relative ;
+}
+
+#ep {
+width : 0px ;
+height : 0px ;
+}
+
+.a4 {
+background-color : #9D0E0E ;
+padding : 10px ;
+position : relative ;
+margin: 10px 0 10px 0;
+}
+
+#i {
+width : 0px ;
+height : 0px ;
+}
+
+.tgp {
+font-size : 0em ;
+}
+
+#gpqp {
+width : 0px ;
+height : 0px ;
+}
+
+#rt a {
+text-align : center ;
+text-decoration : underline ;
+color : purple ;
+}
+
+.partie2 {
+background-image: linear-gradient(to bottom, white, lightgrey) ;
+padding : 0px 10px 0px 10px ;
+}
+
+.cp::first-letter { font-size : 200%; }
+
+.cp ul li {
+list-style-type : square ;
+}
+
+.h2p2 {
+text-align : center ;
+text-transform : none ;
+text-decoration : none ;
+font-size : 1.6em ;
+}
+
+#menu1 a {
+color : red ;
+text-decoration : none ;
+}
+
+.att {
+text-align : center ;
+color : red ;
+border : 5px double red ;
+font-size : 1.3em;
+}
+
+#menuim div {
+padding : 0 ;
+margin: 0 ;
+}
+
+figcaption {
+text-align : left ;
+font-weight : bold ;
+}
+
+#psp {
+width : 300px ;
+height : 150px ;
+}
+
+#ours {
+width : 300px ;
+height : 150px ;
+}
+
+#pa {
+width : 300px ;
+height : 150px ;
+}
+
+#on {
+width : 300px ;
+height : 150px ;
+}
+
+#oiseau {
+width : 300px ;
+height : 150px ;
+}
+
+#phoque {
+width : 300px ;
+height : 150px ;
+}
+
+#cal {
+width : 300px ;
+height : 150px ;
+}
+
+#menu2 {
+padding-bottom : 1% ;
+}
+
+#eps {
+width : 0px ;
+height : 0px ;
+}
+
+.gfin {
+font-size : 0em ;
+}
+
+#gepete {
+width : 0px ;
+height : 0px ;
+}
+#act {
+  width:75%;
+  margin:auto;
+}
+#ph1{
+ width: 90%;
+}
+#para1 ,#para3 {
+text-align:justify;
+width:49%;
+margin: 10px
+}
+#para2 ,#para4 {
+  width:49%;
+text-align:justify;
+}
+#ph{
+  width: 50px;
+}
+#ph2{
+  width:100px;
+}
+#para3, li , a{
+text-decoration : none;
+}
+#bodyActeur{
+background-image: linear-gradient(to top, green, white);
+ }
+#ph5{
+width:450px;
+}
